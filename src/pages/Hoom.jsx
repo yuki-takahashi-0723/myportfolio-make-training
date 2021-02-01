@@ -1,9 +1,12 @@
 import React from 'react'
-import { Header } from '../component'
+import { Footer, Header } from '../component'
 
 const Hoom = () => {
    return (
-       <Header/>
+       <>
+            <Header/>
+            <Footer/>
+       </>
    )
 }
 

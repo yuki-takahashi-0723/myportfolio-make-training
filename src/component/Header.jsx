@@ -55,9 +55,6 @@ const NavSpan = styled.span`
     margin-left:0.5em;
 `
 
-
-
-
 const Header = () => {
     return(
         <header>
