@@ -1,18 +1,13 @@
 import React from 'react'
-import cafelogo from '../img/coffee-3642712_1280.png'
 import styled from 'styled-components'
 import HomeIcon from '@material-ui/icons/Home';
 import MenuBookIcon from '@material-ui/icons/MenuBook';
 import RoomIcon from '@material-ui/icons/Room';
-const LogoImg = styled.img`
-    width:46px;
-    display:block;
-    margin: 15px auto;
-    @media (min-width: 992px){
-        width:92px;
-    }
 
+const Title = styled.h2`
+    text-align:center;
 `
+
 
 const NavMenu = styled.nav`
     
@@ -58,14 +53,12 @@ const NavSpan = styled.span`
 const Header = () => {
     return(
         <header>
-            <LogoImg src={cafelogo} alt='cafe-logo'/>
+            <Title>My portFolio</Title>
             <NavMenu>
                <NavList>
-                   <li><NavLink href='index.html'><HomeIcon/><NavSpan>HOME</NavSpan></NavLink></li>
-                   <li><NavLink href='index.html'><MenuBookIcon/><NavSpan>MENU</NavSpan></NavLink></li>
-                   <li><NavLink href='index.html'><RoomIcon/><NavSpan>ACCESS</NavSpan></NavLink></li>
-                   <li><NavLink href='index.html'><RoomIcon/><NavSpan>MEDIA</NavSpan></NavLink></li>
-                   <li><NavLink href='index.html'><RoomIcon/><NavSpan>CONTACT</NavSpan></NavLink></li>
+                   <li><NavLink href='#about'><HomeIcon/><NavSpan>about</NavSpan></NavLink></li>
+                   <li><NavLink href='#works'><MenuBookIcon/><NavSpan>WOKS</NavSpan></NavLink></li>
+                   <li><NavLink href='#contact'><RoomIcon/><NavSpan>CONTACT</NavSpan></NavLink></li>
                </NavList>
             </NavMenu>
         </header>

@@ -1,11 +1,14 @@
 import React from 'react'
-import { Footer, Header } from '../component'
+import { Container, Footer, Header, Main } from '../component'
 
 const Hoom = () => {
    return (
        <>
-            <Header/>
-            <Footer/>
+            <Container>
+                <Header/>
+                <Main/>
+                <Footer/>
+            </Container>
        </>
    )
 }

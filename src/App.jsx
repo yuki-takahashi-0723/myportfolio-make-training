@@ -1,8 +1,8 @@
 import React from 'react'
 import { Hoom } from './pages'
 import styled from 'styled-components'
-
-const CommonStyles = styled.main`
+import './App.css'
+const CommonStyles = styled.div`
     box-sizing:border-box;
     font-family:"Helvetica Neue",Arial, 
     "Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
@@ -10,7 +10,9 @@ const CommonStyles = styled.main`
     color:#50360d;
     line-height:1.6;
     margin:0;
-
+    height:100%;
+   
+    
 
 `
 
