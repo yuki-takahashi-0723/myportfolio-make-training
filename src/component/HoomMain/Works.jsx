@@ -69,17 +69,17 @@ const AppTitle = styled.h3`
             </IconsWrap>
             <p>MyApp</p>
             <AppImageWrap>
-                <LinkContent　href='https://yuki-takahashi-0723.github.io/HDS-R/#/'>
+                <LinkContent　href='https://yuki-takahashi-0723.github.io/HDS-R/#/'　target='_blank'>
                     <AppImage src={HDSRPhoto} alt='二人の御老人の手が重なり合っている画像'/>   
                     <AppTitle>認知症進行度測定アプリ</AppTitle>
                     <p>過去に勤続していた施設で使用されていたスケールを元に手軽にパソコン１台スマホ１台で認知症の進行度を測定するアプリケーション</p>
                 </LinkContent>
-                <LinkContent href='https://yuki-takahashi-0723.github.io/kakarinweb/#/'>
+                <LinkContent href='https://yuki-takahashi-0723.github.io/kakarinweb/#/' target='_blank'>
                     <AppImage　src={HumstarPhoto} alt='キンクマハムスターとジャンガリアンハムスターのイラスト'/>   
                     <AppTitle>ReactWebPage</AppTitle>
                     <p>イラストを書く知人にウェブページを作成。写真投稿機能付きの日記や簡単な受け答えができるchatBot機能とSlackにメッセージを送る質問用フォームを実装</p>
                 </LinkContent>
-                <LinkContent href='https://yuki-takahashi-0723.github.io/code-villege-chatapp/'>
+                <LinkContent href='https://yuki-takahashi-0723.github.io/code-villege-chatapp/' target='_blank'>
                     <AppImage src={ChatPhoto} alt='スマートフォンを操作する手の画像'/>   
                     <AppTitle>Chatアプリ</AppTitle>
                     <p>学習の過程で作成したchatアプリですが、機能を拡張して、画像投稿機能やイイねをつける機能を実装。また自分自身ちょっとしたドライブや小旅行が好なことからテーマを設定し作成した。</p>
