@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/myportfolio-make-training/static/css/main.15956f5a.chunk.css",
+    "main.js": "/myportfolio-make-training/static/js/main.29ab7776.chunk.js",
+    "main.js.map": "/myportfolio-make-training/static/js/main.29ab7776.chunk.js.map",
+    "runtime-main.js": "/myportfolio-make-training/static/js/runtime-main.725b5d6a.js",
+    "runtime-main.js.map": "/myportfolio-make-training/static/js/runtime-main.725b5d6a.js.map",
+    "static/js/2.a6001181.chunk.js": "/myportfolio-make-training/static/js/2.a6001181.chunk.js",
+    "static/js/2.a6001181.chunk.js.map": "/myportfolio-make-training/static/js/2.a6001181.chunk.js.map",
+    "index.html": "/myportfolio-make-training/index.html",
+    "static/css/main.15956f5a.chunk.css.map": "/myportfolio-make-training/static/css/main.15956f5a.chunk.css.map",
+    "static/js/2.a6001181.chunk.js.LICENSE.txt": "/myportfolio-make-training/static/js/2.a6001181.chunk.js.LICENSE.txt",
+    "static/media/736418F0-D7D3-4BC4-AB83-360CF25A684E_1_105_c.9bf4cf89.jpeg": "/myportfolio-make-training/static/media/736418F0-D7D3-4BC4-AB83-360CF25A684E_1_105_c.9bf4cf89.jpeg",
+    "static/media/CC01FD33-D6DA-4455-95C0-D4362C9E5636_1_105_c.7da4a855.jpeg": "/myportfolio-make-training/static/media/CC01FD33-D6DA-4455-95C0-D4362C9E5636_1_105_c.7da4a855.jpeg",
+    "static/media/book-5901941_1920.5049adcc.jpg": "/myportfolio-make-training/static/media/book-5901941_1920.5049adcc.jpg",
+    "static/media/css_original_wordmark_logo_icon_146576.6eb18ad7.png": "/myportfolio-make-training/static/media/css_original_wordmark_logo_icon_146576.6eb18ad7.png",
+    "static/media/git_original_wordmark_logo_icon_146510.f43e2ebc.png": "/myportfolio-make-training/static/media/git_original_wordmark_logo_icon_146510.f43e2ebc.png",
+    "static/media/google_firebase_icon-icons.com_61474.d7d5280a.png": "/myportfolio-make-training/static/media/google_firebase_icon-icons.com_61474.d7d5280a.png",
+    "static/media/hands-2906458_1920.84df175e.jpg": "/myportfolio-make-training/static/media/hands-2906458_1920.84df175e.jpg",
+    "static/media/hospice-1797305_1920.62dbfcb9.jpg": "/myportfolio-make-training/static/media/hospice-1797305_1920.62dbfcb9.jpg",
+    "static/media/html_original_wordmark_logo_icon_146478.5d00fa00.png": "/myportfolio-make-training/static/media/html_original_wordmark_logo_icon_146478.5d00fa00.png",
+    "static/media/iphone-642999_1920.7d5db27d.jpg": "/myportfolio-make-training/static/media/iphone-642999_1920.7d5db27d.jpg",
+    "static/media/javascript_icon_130900 (1).621f6061.png": "/myportfolio-make-training/static/media/javascript_icon_130900 (1).621f6061.png",
+    "static/media/react_original_wordmark_logo_icon_146375.598c2743.png": "/myportfolio-make-training/static/media/react_original_wordmark_logo_icon_146375.598c2743.png",
+    "static/media/school-2051712_1920.c0e0cd3e.jpg": "/myportfolio-make-training/static/media/school-2051712_1920.c0e0cd3e.jpg",
+    "static/media/xps-6uneKLGrJPs-unsplash.09333f86.jpg": "/myportfolio-make-training/static/media/xps-6uneKLGrJPs-unsplash.09333f86.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.725b5d6a.js",
+    "static/js/2.a6001181.chunk.js",
+    "static/css/main.15956f5a.chunk.css",
+    "static/js/main.29ab7776.chunk.js"
+  ]
+}
