@@ -6,6 +6,9 @@ import javascriptIcon from '../../img/javascript_icon_130900 (1).png'
 import reactIcon from '../../img/react_original_wordmark_logo_icon_146375.png'
 import firebaseIcon from '../../img/google_firebase_icon-icons.com_61474.png'
 import gitIcon from '../../img/git_original_wordmark_logo_icon_146510.png'
+import HDSRPhoto from '/Users/takahashiyuusei/myportfolio/portfolio/src/img/hands-2906458_1920.jpg'
+import ChatPhoto from '/Users/takahashiyuusei/myportfolio/portfolio/src/img/iphone-642999_1920.jpg'
+import HumstarPhoto from '/Users/takahashiyuusei/myportfolio/portfolio/src/img/736418F0-D7D3-4BC4-AB83-360CF25A684E_1_105_c.jpeg'
 const Works = () => {
     const Title = styled.h2`
     text-align:center;
@@ -39,6 +42,8 @@ const AppImageWrap = styled.div`
 const LinkContent = styled.a`
     width:250px;
     height:450px;
+    text-decoration:none;
+    color:inherit;
 `
 
 
@@ -64,20 +69,20 @@ const AppTitle = styled.h3`
             </IconsWrap>
             <p>MyApp</p>
             <AppImageWrap>
-                <LinkContent>
-                    <AppImage/>   
+                <LinkContent　href='https://yuki-takahashi-0723.github.io/HDS-R/#/'>
+                    <AppImage src={HDSRPhoto} alt='二人の御老人の手が重なり合っている画像'/>   
                     <AppTitle>認知症進行度測定アプリ</AppTitle>
-                    <p>過去に勤続していた施設で称されていたスケールを下に手軽にパソコン１台で認知症の進行度を測定するアプリケーション</p>
+                    <p>過去に勤続していた施設で使用されていたスケールを元に手軽にパソコン１台スマホ１台で認知症の進行度を測定するアプリケーション</p>
                 </LinkContent>
-                <LinkContent>
-                    <AppImage/>   
-                    <AppTitle>ChatBotアプリ</AppTitle>
-                    <p>簡単な受け答えができるchatBotアプリケーション。質問用フォームが実装されており、そこから私の個人のSlackにメッセージを通知します</p>
+                <LinkContent href='https://yuki-takahashi-0723.github.io/kakarinweb/#/'>
+                    <AppImage　src={HumstarPhoto} alt='キンクマハムスターとジャンガリアンハムスターのイラスト'/>   
+                    <AppTitle>ReactWebPage</AppTitle>
+                    <p>イラストを書く知人にウェブページを作成。写真投稿機能付きの日記や簡単な受け答えができるchatBot機能とSlackにメッセージを送る質問用フォームを実装</p>
                 </LinkContent>
-                <LinkContent>
-                    <AppImage/>   
+                <LinkContent href='https://yuki-takahashi-0723.github.io/code-villege-chatapp/'>
+                    <AppImage src={ChatPhoto} alt='スマートフォンを操作する手の画像'/>   
                     <AppTitle>Chatアプリ</AppTitle>
-                    <p>学習の過程で作成したchatアプリですが、機能を拡張してインスタグラムのように、画像を投稿できるものにしました。</p>
+                    <p>学習の過程で作成したchatアプリですが、機能を拡張して、画像投稿機能やイイねをつける機能を実装。また自分自身ちょっとしたドライブや小旅行が好なことからテーマを設定し作成した。</p>
                 </LinkContent>
             </AppImageWrap>
         </>
