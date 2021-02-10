@@ -40,7 +40,7 @@ const TopView = () =>{
     return(
        <FirstViewWrap>
            
-                <FirstCatch>未経験エンジニアの<br></br>寂しいポートフォリオ</FirstCatch>
+                <FirstCatch>誰のそばにも寄り添える<br></br>テクノロジーを開発したい</FirstCatch>
           
        </FirstViewWrap>
     )

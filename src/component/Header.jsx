@@ -53,10 +53,10 @@ const NavSpan = styled.span`
 const Header = () => {
     return(
         <header>
-            <Title>My portFolio</Title>
+            <Title>My PortFolio</Title>
             <NavMenu>
                <NavList>
-                   <li><NavLink href='#about'><HomeIcon/><NavSpan>about</NavSpan></NavLink></li>
+                   <li><NavLink href='#about'><HomeIcon/><NavSpan>ABOUT</NavSpan></NavLink></li>
                    <li><NavLink href='#works'><MenuBookIcon/><NavSpan>WOKS</NavSpan></NavLink></li>
                    <li><NavLink href='#contact'><RoomIcon/><NavSpan>CONTACT</NavSpan></NavLink></li>
                </NavList>
